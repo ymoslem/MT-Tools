@@ -41,10 +41,10 @@ Collection of Common Machine Translation Tools
 
 * [Compare-MT](https://github.com/neulab/compare-mt): Multiple MT evaluation metics.
 * [NLPMetrics](https://github.com/gcunhase/NLPMetrics):  Multiple MT evaluation metics.
-* [SacreBLEU](https://github.com/mjpost/sacrebleu): BLEU MT evaluation metic.
+* [SacreBLEU](https://github.com/mjpost/sacrebleu): MT evaluation metic, supporting BLEU, spBLEU, chrF++, TER, WER
 * [WER](https://github.com/jitsi/jiwer): WER MT evaluation metic.
 * [PyTER](https://pypi.org/project/pyter/0.2.2.1/): TER MT evaluation metic.
-* [COMET](https://github.com/Unbabel/COMET): 
+* [COMET](https://github.com/Unbabel/COMET): Semantic MT evaluation metic.
 * [YISI](https://github.com/chikiulo/yisi): Semantic MT evaluation metic.
 
 **Relevant Tutorials**
@@ -69,11 +69,23 @@ Collection of Common Machine Translation Tools
 * [OPUS](http://opus.nlpl.eu/)
 
 
-## Pre-trained NLP Models
+## Pre-trained NMT Models
 
-* [HuggingFace](https://huggingface.co/): Framework supporting pre-trained models for multiple NLP purposes.
+Most of these models can be converted to the [CTranslate2](https://github.com/OpenNMT/CTranslate2) format for better efficiency. You can also run them out-of-the-box with [HuggingFace](https://huggingface.co/), a framework supporting pre-trained models for multiple NLP purposes.
+
+* OPUS-MT ([Tatoeba-Challenge](https://github.com/Helsinki-NLP/Tatoeba-Challenge/tree/master/models)): Several MT models
+* [M2M-100](https://github.com/facebookresearch/fairseq/tree/main/examples/m2m_100)
+* [mBART](https://github.com/facebookresearch/fairseq/tree/main/examples/mbart)
+* [NLLB](https://github.com/facebookresearch/fairseq/tree/nllb)
+* [T5](https://github.com/google-research/text-to-text-transfer-transformer)
+
+**Other pre-trained NLP models:**
+
 * [BERT](https://github.com/google-research/bert)
 * [GPT-2](https://github.com/openai/gpt-2)
+* [GPT-J](https://github.com/kingoflolz/mesh-transformer-jax/#gpt-j-6b)
+* [GPT-NeoX](https://github.com/EleutherAI/gpt-neox)
+* [OPT](https://github.com/facebookresearch/metaseq)
 
 
 ## Local NMT Tools
